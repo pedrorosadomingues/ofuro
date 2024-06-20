@@ -45,6 +45,7 @@ const ThreeSixtyViewer = () => {
 
       // Ajustar a rotação inicial da imagem CAPA
       mesh.rotation.y = THREE.MathUtils.degToRad(-75);
+      mesh.rotation.z = THREE.MathUtils.degToRad(10);
 
       scene.add(mesh);
     });
